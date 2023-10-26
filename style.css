@@ -1,0 +1,30 @@
+body {
+    background-image: url("sisters.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: #2B7A0B;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content {
+    margin-top: 8%;
+    text-align: center;
+}
+
+p {
+    font-size: larger;
+    font-weight: 600;
+}
+
+h1, h2 {
+    font-weight: bolder;
+}
+
+
+@media (max-width:993px) {
+    body {
+        background-position: center;
+        background-size: cover;
+    }
+}
